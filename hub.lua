@@ -84,7 +84,7 @@ local function showNotification(title, message)
 end
 
 print("the hub is loading | made by plumsy.dev")
-loadstring(game:HttpGet('https://raw.githubusercontent.com/fuckusfm/infiniteyield-reborn/master/source'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 showNotification("plumsy.hub", "The hub is launching, check console (F9) for more information\n Infinite Yield has been launched")
 wait(1)
 print("DEBUG: BYFRON GOT BYFRON'ED")
@@ -226,4 +226,5 @@ else
             game.Players.LocalPlayer.Character.Humanoid.JumpPower = 57
         end
     end
+
 end
