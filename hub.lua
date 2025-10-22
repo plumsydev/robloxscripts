@@ -113,6 +113,10 @@ local supportedGames = {
         [1] = "Brookhaven",
         [2] = "Brookhaven"
     }
+    [98255877724007] = {
+        [1] = "Be an Egg",
+        [2] = "BeAnEgg"
+    }
 }
 
 if supportedGames[game.PlaceId] then
@@ -228,4 +232,5 @@ else
     end
 
 end
+
 
