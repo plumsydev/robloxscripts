@@ -101,7 +101,7 @@ local supportedGames = {
         [1] = "Murder Mystery 2",
         [2] = "MM2"
     },
-    [6516141723] = {
+    [6839171747] = {
         [1] = "Doors",
         [2] = "Doors"
     },
@@ -236,6 +236,7 @@ else
     end
 
 end
+
 
 
 
