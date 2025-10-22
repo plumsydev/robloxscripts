@@ -112,7 +112,7 @@ local supportedGames = {
     [4924922222] = {
         [1] = "Brookhaven",
         [2] = "Brookhaven"
-    }
+    },
     [98255877724007] = {
         [1] = "Be an Egg",
         [2] = "BeAnEgg"
@@ -232,5 +232,6 @@ else
     end
 
 end
+
 
 
