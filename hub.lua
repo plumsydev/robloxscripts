@@ -117,7 +117,7 @@ local supportedGames = {
         [1] = "Be an Egg",
         [2] = "BeAnEgg"
     },
-    [15885874861] = {
+    [79819747404625] = {
         [1] = "Be an Egg",
         [2] = "BeAnEgg"
     }
@@ -236,6 +236,7 @@ else
     end
 
 end
+
 
 
 
