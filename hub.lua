@@ -122,7 +122,7 @@ local supportedGames = {
 if supportedGames[game.PlaceId] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/plumsydev/robloxscripts/main/"..supportedGames[game.PlaceId][2]..".lua"))()
 else
-    getgenv().UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Snxdfer/Nurysium_/refs/heads/main/nurysium_ui.lua"))()
+    getgenv().UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/plumsydev/robloxscripts/refs/heads/main/uilib.lua"))()
     showNotification("plumsy.hub", "This game is not supported, launching basic hub.")
     local gameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
     local gameID = game.PlaceId
@@ -232,6 +232,7 @@ else
     end
 
 end
+
 
 
 
