@@ -95,7 +95,7 @@ local RunService = game:GetService('RunService')
 local ReplicatedStorage = game:GetService('ReplicatedStorage')
 local TweenService = game:GetService('TweenService')
 
-local Nurysium_Util = loadstring(game:HttpGet('https://raw.githubusercontent.com/Snxdfer/Nurysium_/refs/heads/main/nurysium_helper.lua'))()
+local Nurysium_Util = loadstring(game:HttpGet('https://raw.githubusercontent.com/plumsydev/robloxscripts/refs/heads/main/uihelper.lua'))()
 
 local local_player = Players.LocalPlayer
 local camera = workspace.CurrentCamera
