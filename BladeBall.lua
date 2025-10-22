@@ -87,9 +87,6 @@ showNotification("plumsy.bladeball", "Insert key to open / hide !")
 wait(5)
 local version = '0.3'
 
-game:GetService("ReplicatedStorage").Security.RemoteEvent:Destroy()
-game:GetService("ReplicatedStorage").Security[""]:Destroy()
-game:GetService("ReplicatedStorage").Security:Destroy()
 game:GetService("Players").LocalPlayer.PlayerScripts.Client.DeviceChecker:Destroy()
 
 local Stats = game:GetService('Stats')
