@@ -122,7 +122,7 @@ local Services = {
 	game:GetService('SocialService')
 }
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Snxdfer/Nurysium_/refs/heads/main/nurysium_ui.lua"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/plumsydev/robloxscripts/refs/heads/main/uilib.lua"))()
 task.wait(0.25)
 
 --// Yes, you can rename, I don't mind 🌠
